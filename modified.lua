@@ -256,6 +256,9 @@ Booths_Broadcast.OnClientEvent:Connect(function(username, message)
 		    elseif item == "Mini Pinata" and unitGems <= 46000 then
                         coroutine.wrap(tryPurchase)(uid, gems, item, version, shiny, amount, username, class, playerid, buytimestamp, listTimestamp)
                         return
+		    elseif item == "Mini Lucky Block" and unitGems <= 10000 then
+                        coroutine.wrap(tryPurchase)(uid, gems, item, version, shiny, amount, username, class, playerid, buytimestamp, listTimestamp)
+                        return
 
 
                 -- Enchants    
