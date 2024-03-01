@@ -6,7 +6,7 @@ Edmond: offered tips for optimization
 
 it is very recommended to fork this and made your own config
 ]]--
-
+print("injected")
 local osclock = os.clock()
 if not game:IsLoaded() then
     game.Loaded:Wait()
