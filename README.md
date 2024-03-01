@@ -1,1 +1,1 @@
-sniper is discontinued
+
