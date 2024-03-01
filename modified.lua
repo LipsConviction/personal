@@ -258,6 +258,10 @@ Booths_Broadcast.OnClientEvent:Connect(function(username, message)
                         return
 		    elseif item == "Mini Lucky Block" and unitGems <= 6000 then
                         coroutine.wrap(tryPurchase)(uid, gems, item, version, shiny, amount, username, class, playerid, buytimestamp, listTimestamp)
+		    elseif item == "Large Gift Bag" and unitGems <= 13000 then
+                        coroutine.wrap(tryPurchase)(uid, gems, item, version, shiny, amount, username, class, playerid, buytimestamp, listTimestamp)
+		    elseif item == "Insta Plant Capsule" and unitGems <= 10000 then
+                        coroutine.wrap(tryPurchase)(uid, gems, item, version, shiny, amount, username, class, playerid, buytimestamp, listTimestamp)
                         return
 
 
